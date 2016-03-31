@@ -1,0 +1,290 @@
+/* Controls */
+.music .ui-slider.ui-mini{padding:0 10px 10px 40px;}
+.ui-slider.ui-mini{padding:0 10px 10px 12px;}
+.ui-page-theme-a .tile.active .ui-slider-track .ui-btn-active {background-color: white;} /* active left slider bar */
+.ui-page-theme-a .ui-slider-track .ui-btn-active {background-color:#666666;} /* inactive left slider bar */
+.ui-slider-handle.ui-btn.ui-shadow {background-color: #666666;} /* inactive slider button */
+.tile.active .ui-slider-handle.ui-btn.ui-shadow {background-color: white;} /* active slider button */
+.ui-page-theme-a .ui-bar-inherit {background-color: #666666;} /* inactive right slider bar */
+.ui-page-theme-a .tile.active .ui-bar-inherit {background-color: white;}
+
+/* Icon Opacity */ 
+.fa-toggle-off {opacity: 1!important}
+.fa-toggle-on {opacity: 1!important}
+.fa-shield {opacity: 1!important}
+.fa-expand {opacity: 1!important}
+.fa-compress {opacity: 1!important}
+.fa-lightbulb-o {opacity: 1!important}
+.fa-tint {opacity: 1!important}
+.fa-exchange {opacity: 1!important}
+
+/* Weather */
+.weather[data-weather='mostlycloudy'] {background-color: #D3D3D3}
+.weather[data-weather='nt_partlycloudy'] {background-color: #D3D3D3}
+.weather[data-weather='cloudy'] {background-color: #D3D3D3}
+.weather[data-weather='fog'] {background-color: #D3D3D3}
+.weather[data-weather='rain'] {background-color: #0000FF}
+.weather[data-weather='clear'] {background-color: #FFD700}
+.weather[data-weather='sunny'] {background-color: #FFD700}
+.weather[data-weather='snow'] {background-color: #FFFFFF}
+
+/* Modes */
+.mode.Home{background-color: #32CD32;}
+.mode.Away{background-color: #FF0000;}
+.mode.Night{background-color: #000099;}
+
+/* Lights */
+.light.inactive {background-color: #808080;}
+.light.active {background-color: #FFD700;}
+.tile.light[data-device='device id'] .icon i.inactive:before {content : url(image url);position:relative;top:10px}
+.dimmerLight.inactive {background-color: #808080;}
+.dimmerLight.active {background-color: #FFD700;}
+.tile.dimmerLight[data-device='device id'] .icon i.inactive:before {content : url(web address);position:relative;top:10px}
+
+/* Contact Sensor */
+.contact.inactive {background-color: #4C4C4C;}
+.contact.active {background-color: #FF0000;}
+.tile.contact[data-device='device id'] .icon i.active{transform: rotate(0deg)} 
+.tile.contact[data-device='device id'] .icon i.active:before {content : url(image url);position:relative;top:10px}
+.tile.contact[data-device='device id'] .icon i.inactive{transform: rotate(0deg)}
+.tile.contact[data-device='device id'] .icon i.inactive:before {content : url(image url);position:relative;top:10px}
+
+/* Motion Sensor */
+.motion.inactive {background-color: #4C4C4C;} 
+.motion.active {background-color: #FF0000;} 
+.tile.motion[data-device='device id'] .icon i.active:before {content : url(image url);position:relative;top:10px}
+.tile.motion[data-device='device id'] .icon i.inactive:before {content : url(image url);position:relative;top:10px}
+
+/* Battery */
+.battery[data-value='100%'] .icon {color: #32CD32}
+.battery[data-value='99%'] .icon {color: #32CD32}
+.battery[data-value='98%'] .icon {color: #32CD32}
+.battery[data-value='97%'] .icon {color: #32CD32}
+.battery[data-value='96%'] .icon {color: #32CD32}
+.battery[data-value='95%'] .icon {color: #32CD32}
+.battery[data-value='94%'] .icon {color: #32CD32}
+.battery[data-value='93%'] .icon {color: #32CD32}
+.battery[data-value='92%'] .icon {color: #32CD32}
+.battery[data-value='91%'] .icon {color: #32CD32}
+.battery[data-value='90%'] .icon {color: #32CD32}
+.battery[data-value='89%'] .icon {color: #32CD32}
+.battery[data-value='88%'] .icon {color: #32CD32}
+.battery[data-value='87%'] .icon {color: #32CD32}
+.battery[data-value='86%'] .icon {color: #32CD32}
+.battery[data-value='85%'] .icon {color: #32CD32}
+.battery[data-value='84%'] .icon {color: #32CD32}
+.battery[data-value='83%'] .icon {color: #32CD32}
+.battery[data-value='82%'] .icon {color: #32CD32}
+.battery[data-value='81%'] .icon {color: #32CD32}
+.battery[data-value='80%'] .icon {color: #32CD32}
+.battery[data-value='79%'] .icon {color: #32CD32}
+.battery[data-value='78%'] .icon {color: #32CD32}
+.battery[data-value='77%'] .icon {color: #32CD32}
+.battery[data-value='76%'] .icon {color: #32CD32}
+.battery[data-value='75%'] .icon {color: #32CD32}
+.battery[data-value='74%'] .icon {color: #32CD32}
+.battery[data-value='73%'] .icon {color: #32CD32}
+.battery[data-value='72%'] .icon {color: #32CD32}
+.battery[data-value='71%'] .icon {color: #32CD32}
+.battery[data-value='70%'] .icon {color: #32CD32}
+.battery[data-value='69%'] .icon {color: #FFD700}
+.battery[data-value='68%'] .icon {color: #FFD700}
+.battery[data-value='67%'] .icon {color: #FFD700}
+.battery[data-value='66%'] .icon {color: #FFD700}
+.battery[data-value='65%'] .icon {color: #FFD700}
+.battery[data-value='64%'] .icon {color: #FFD700}
+.battery[data-value='63%'] .icon {color: #FFD700}
+.battery[data-value='62%'] .icon {color: #FFD700}
+.battery[data-value='61%'] .icon {color: #FFD700}
+.battery[data-value='60%'] .icon {color: #FFD700}
+.battery[data-value='59%'] .icon {color: #FFD700}
+.battery[data-value='58%'] .icon {color: #FFD700}
+.battery[data-value='57%'] .icon {color: #FFD700}
+.battery[data-value='56%'] .icon {color: #FFD700}
+.battery[data-value='55%'] .icon {color: #FFD700}
+.battery[data-value='54%'] .icon {color: #FFD700}
+.battery[data-value='53%'] .icon {color: #FFD700}
+.battery[data-value='52%'] .icon {color: #FFD700}
+.battery[data-value='51%'] .icon {color: #FFD700}
+.battery[data-value='50%'] .icon {color: #FFD700}
+.battery[data-value='49%'] .icon {color: #FFD700}
+.battery[data-value='48%'] .icon {color: #FFD700}
+.battery[data-value='47%'] .icon {color: #FFD700}
+.battery[data-value='46%'] .icon {color: #FFD700}
+.battery[data-value='45%'] .icon {color: #FFD700}
+.battery[data-value='44%'] .icon {color: #FFD700}
+.battery[data-value='43%'] .icon {color: #FFD700}
+.battery[data-value='42%'] .icon {color: #FFD700}
+.battery[data-value='41%'] .icon {color: #FFD700}
+.battery[data-value='40%'] .icon {color: #FFD700}
+.battery[data-value='39%'] .icon {color: #FFD700}
+.battery[data-value='38%'] .icon {color: #FFD700}
+.battery[data-value='37%'] .icon {color: #FFD700}
+.battery[data-value='36%'] .icon {color: #FFD700}
+.battery[data-value='35%'] .icon {color: #FFD700}
+.battery[data-value='34%'] .icon {color: #FFD700}
+.battery[data-value='33%'] .icon {color: #FFD700}
+.battery[data-value='32%'] .icon {color: #FFD700}
+.battery[data-value='31%'] .icon {color: #FFD700}
+.battery[data-value='30%'] .icon {color: #FF0040}
+.battery[data-value='29%'] .icon {color: #FF0040}
+.battery[data-value='28%'] .icon {color: #FF0040}
+.battery[data-value='27%'] .icon {color: #FF0040}
+.battery[data-value='26%'] .icon {color: #FF0040}
+.battery[data-value='25%'] .icon {color: #FF0040}
+.battery[data-value='24%'] .icon {color: #FF0040}
+.battery[data-value='23%'] .icon {color: #FF0040}
+.battery[data-value='22%'] .icon {color: #FF0040}
+.battery[data-value='21%'] .icon {color: #FF0040}
+.battery[data-value='20%'] .icon {color: #FF0040}
+.battery[data-value='19%'] .icon {color: #FF0040}
+.battery[data-value='18%'] .icon {color: #FF0040}
+.battery[data-value='17%'] .icon {color: #FF0040}
+.battery[data-value='16%'] .icon {color: #FF0040}
+.battery[data-value='15%'] .icon {color: #FF0040}
+.battery[data-value='14%'] .icon {color: #FF0040}
+.battery[data-value='13%'] .icon {color: #FF0040}
+.battery[data-value='12%'] .icon {color: #FF0040}
+.battery[data-value='11%'] .icon {color: #FF0040}
+.battery[data-value='10%'] .icon {color: #FF0040}
+.battery[data-value='9%'] .icon {color: #FF0040}
+.battery[data-value='8%'] .icon {color: #FF0040}
+.battery[data-value='7%'] .icon {color: #FF0040}
+.battery[data-value='6%'] .icon {color: #FF0040}
+.battery[data-value='5%'] .icon {color: #FF0040}
+.battery[data-value='4%'] .icon {color: #FF0040}
+.battery[data-value='3%'] .icon {color: #FF0040}
+.battery[data-value='2%'] .icon {color: #FF0040}
+.battery[data-value='1%'] .icon {color: #FF0040}
+.battery[data-value='0%'] .icon {color: #FF0040}
+
+/* Temperature */
+.temperature[data-value='140°'] .icon {color: #FF0040}
+.temperature[data-value='139°'] .icon {color: #FF0038}
+.temperature[data-value='138°'] .icon {color: #FF0030}
+.temperature[data-value='137°'] .icon {color: #FF0028}
+.temperature[data-value='136°'] .icon {color: #FF0020}
+.temperature[data-value='135°'] .icon {color: #FF0018}
+.temperature[data-value='134°'] .icon {color: #FF0010}
+.temperature[data-value='133°'] .icon {color: #FF0008}
+.temperature[data-value='132°'] .icon {color: #FF0000}
+.temperature[data-value='131°'] .icon {color: #FF0500}
+.temperature[data-value='130°'] .icon {color: #FF0A00}
+.temperature[data-value='129°'] .icon {color: #FF0F00}
+.temperature[data-value='128°'] .icon {color: #FF1400}
+.temperature[data-value='127°'] .icon {color: #FF1900}
+.temperature[data-value='126°'] .icon {color: #FF1E00}
+.temperature[data-value='125°'] .icon {color: #FF2300}
+.temperature[data-value='124°'] .icon {color: #FF2800}
+.temperature[data-value='123°'] .icon {color: #FF2D00}
+.temperature[data-value='122°'] .icon {color: #FF3200}
+.temperature[data-value='121°'] .icon {color: #FF3700}
+.temperature[data-value='120°'] .icon {color: #FF3C00}
+.temperature[data-value='119°'] .icon {color: #FF4100}
+.temperature[data-value='118°'] .icon {color: #FF4600}
+.temperature[data-value='117°'] .icon {color: #FF4B00}
+.temperature[data-value='116°'] .icon {color: #FF5000}
+.temperature[data-value='115°'] .icon {color: #FF5500}
+.temperature[data-value='114°'] .icon {color: #FF5A00}
+.temperature[data-value='113°'] .icon {color: #FF5F00}
+.temperature[data-value='112°'] .icon {color: #FF6400}
+.temperature[data-value='111°'] .icon {color: #FF6900}
+.temperature[data-value='110°'] .icon {color: #FF6E00}
+.temperature[data-value='109°'] .icon {color: #FF7300}
+.temperature[data-value='108°'] .icon {color: #FF7800}
+.temperature[data-value='107°'] .icon {color: #FF7D00}
+.temperature[data-value='106°'] .icon {color: #FF8200}
+.temperature[data-value='105°'] .icon {color: #FF8700}
+.temperature[data-value='104°'] .icon {color: #FF8C00}
+.temperature[data-value='103°'] .icon {color: #FF9100}
+.temperature[data-value='102°'] .icon {color: #FF9600}
+.temperature[data-value='101°'] .icon {color: #FF9B00}
+.temperature[data-value='100°'] .icon {color: #FFA000}
+.temperature[data-value='99°'] .icon {color: #FFA500}
+.temperature[data-value='98°'] .icon {color: #FFAA00}
+.temperature[data-value='97°'] .icon {color: #FFAF00}
+.temperature[data-value='96°'] .icon {color: #FFB400}
+.temperature[data-value='95°'] .icon {color: #FFB900}
+.temperature[data-value='94°'] .icon {color: #FFBE00}
+.temperature[data-value='93°'] .icon {color: #FFC300}
+.temperature[data-value='92°'] .icon {color: #FFC800}
+.temperature[data-value='91°'] .icon {color: #FFCD00}
+.temperature[data-value='90°'] .icon {color: #FFD200}
+.temperature[data-value='89°'] .icon {color: #FFD700}
+.temperature[data-value='88°'] .icon {color: #FFDC00}
+.temperature[data-value='87°'] .icon {color: #FFE100}
+.temperature[data-value='86°'] .icon {color: #FFE600}
+.temperature[data-value='85°'] .icon {color: #FFEB00}
+.temperature[data-value='84°'] .icon {color: #FFF000}
+.temperature[data-value='83°'] .icon {color: #FFF500}
+.temperature[data-value='82°'] .icon {color: #FFFA00}
+.temperature[data-value='81°'] .icon {color: #FEFC00}
+.temperature[data-value='80°'] .icon {color: #FDFF00}
+.temperature[data-value='79°'] .icon {color: #EAFF00}
+.temperature[data-value='78°'] .icon {color: #D7FF00}
+.temperature[data-value='77°'] .icon {color: #C3FF00}
+.temperature[data-value='76°'] .icon {color: #B0FF00}
+.temperature[data-value='75°'] .icon {color: #9DFF00}
+.temperature[data-value='74°'] .icon {color: #8AFF00}
+.temperature[data-value='73°'] .icon {color: #77FF00}
+.temperature[data-value='72°'] .icon {color: #65FF00}
+.temperature[data-value='71°'] .icon {color: #51FF00}
+.temperature[data-value='70°'] .icon {color: #3EFF00}
+.temperature[data-value='69°'] .icon {color: #2AFF00}
+.temperature[data-value='68°'] .icon {color: #17FF00}
+.temperature[data-value='67°'] .icon {color: #0BFF08}
+.temperature[data-value='66°'] .icon {color: #00FF10}
+.temperature[data-value='65°'] .icon {color: #00FF23}
+.temperature[data-value='64°'] .icon {color: #00FF36}
+.temperature[data-value='63°'] .icon {color: #00FF49}
+.temperature[data-value='62°'] .icon {color: #00FF5C}
+.temperature[data-value='61°'] .icon {color: #00FF6F}
+.temperature[data-value='60°'] .icon {color: #00FF83}
+.temperature[data-value='59°'] .icon {color: #00FF95}
+.temperature[data-value='58°'] .icon {color: #00FFA8}
+.temperature[data-value='57°'] .icon {color: #00FFBC}
+.temperature[data-value='56°'] .icon {color: #00FFD0}
+.temperature[data-value='55°'] .icon {color: #00FFE2}
+.temperature[data-value='54°'] .icon {color: #00FFF4}
+.temperature[data-value='53°'] .icon {color: #00F1F9}
+.temperature[data-value='52°'] .icon {color: #00E4FF}
+.temperature[data-value='51°'] .icon {color: #00DCFF}
+.temperature[data-value='50°'] .icon {color: #00D4FF}
+.temperature[data-value='49°'] .icon {color: #00CCFF}
+.temperature[data-value='48°'] .icon {color: #00C4FF}
+.temperature[data-value='47°'] .icon {color: #00BCFF}
+.temperature[data-value='46°'] .icon {color: #00B4FF}
+.temperature[data-value='45°'] .icon {color: #00ACFF}
+.temperature[data-value='44°'] .icon {color: #00A4FF}
+.temperature[data-value='43°'] .icon {color: #009CFF}
+.temperature[data-value='42°'] .icon {color: #0094FF}
+.temperature[data-value='41°'] .icon {color: #008CFF}
+.temperature[data-value='40°'] .icon {color: #0084FF}
+.temperature[data-value='39°'] .icon {color: #007CFF}
+.temperature[data-value='38°'] .icon {color: #0074FF}
+.temperature[data-value='37°'] .icon {color: #006CFF}
+.temperature[data-value='36°'] .icon {color: #0064FF}
+.temperature[data-value='35°'] .icon {color: #005CFF}
+.temperature[data-value='34°'] .icon {color: #0054FF}
+.temperature[data-value='33°'] .icon {color: #004CFF}
+.temperature[data-value='32°'] .icon {color: #0044FF}
+.temperature[data-value='31°'] .icon {color: #003BFF}
+.temperature[data-value='30°'] .icon {color: #0032FF}
+.temperature[data-value='29°'] .icon {color: #002AFF}
+.temperature[data-value='28°'] .icon {color: #0022FF}
+.temperature[data-value='27°'] .icon {color: #001AFF}
+.temperature[data-value='26°'] .icon {color: #0012FF}
+.temperature[data-value='25°'] .icon {color: #000AFF}
+.temperature[data-value='24°'] .icon {color: #0002FF}
+.temperature[data-value='23°'] .icon {color: #0001FF}
+.temperature[data-value='22°'] .icon {color: #0000FF}
+.temperature[data-value='21°'] .icon {color: #0000FF}
+.temperature[data-value='20°'] .icon {color: #0100FF}
+.temperature[data-value='19°'] .icon {color: #0100FF}
+.temperature[data-value='18°'] .icon {color: #0200FF}
+.temperature[data-value='17°'] .icon {color: #0200FF}
+.temperature[data-value='16°'] .icon {color: #0300FF}
+.temperature[data-value='15°'] .icon {color: #0300FF}
+.temperature[data-value='14°'] .icon {color: #0400FF}
+.temperature[data-value='13°'] .icon {color: #0400FF}
+.temperature[data-value='12°'] .icon {color: #0500FF}
