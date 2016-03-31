@@ -56,6 +56,45 @@
 .tile.motion[data-device='device id'] .icon i.inactive:before {content : url(image url);position:relative;top:10px}
 
 /* Battery */
+.battery[data-value='0%'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='0'] .icon {color: #FA0000}
+.battery[data-value^='1'] .icon {color: #FB3300}
+.battery[data-value^='2'] .icon {color: #FC6600}
+.battery[data-value^='3'] .icon {color: #FD9900}
+.battery[data-value^='4'] .icon {color: #FECC00}
+.battery[data-value^='5'] .icon {color: #FFFF00}
+.battery[data-value^='6'] .icon {color: #CCFF00}
+.battery[data-value^='7'] .icon {color: #99FF00}
+.battery[data-value^='8'] .icon {color: #66FF00}
+.battery[data-value^='9'] .icon {color: #33FF00}
+.battery[data-value^='10'] .icon {color: #00FF00}
+
+/* Battery */
+.battery.inactive {background-color: #4C4C4C;}
+.battery[data-value^='0'] .icon {color: #FF0040}
+.battery[data-value^='0'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='1'] .icon {color: #FF0040}
+.battery[data-value^='1'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='2'] .icon {color: #FF0040}
+.battery[data-value^='2'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='3'] .icon {color: #FFD700}
+.battery[data-value^='3'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='4'] .icon {color: #FFD700}
+.battery[data-value^='4'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='5'] .icon {color: #FFD700}
+.battery[data-value^='5'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='6'] .icon {color: #32CD32}
+.battery[data-value^='6'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='7'] .icon {color: #32CD32}
+.battery[data-value^='7'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='8'] .icon {color: #32CD32}
+.battery[data-value^='8'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='9'] .icon {color: #32CD32}
+.battery[data-value^='9'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+.battery[data-value^='10'] .icon {color: #32CD32}
+.battery[data-value^='10'] .footer {width: 40px;height: 20px;transform: rotate(0deg);padding:105px 0px 0px 0px;content : url(image url)}
+
+
 .battery[data-value='100%'] .icon {color: #32CD32}
 .battery[data-value='99%'] .icon {color: #32CD32}
 .battery[data-value='98%'] .icon {color: #32CD32}
